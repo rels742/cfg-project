@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    background: #FFFBEE;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+
+.symbol {
+  padding-right: 10px;
+}
+
+nav {
+  display: grid;
+  place-items: center;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+  list-style: none;
+  
+}
+
+nav li a {
+  color: #4B4A67;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* Main Section */
+main h1 {
+  color: #4B4A67;
+}
+
+.home-about {
+  color: #4B4A67;
+  padding: 1em 0;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.columns {
+  display: flex;
+}
+
+.col + .col {
+  margin-left: 1.5em;
+}
+
+.more-stuff-grid {
+  color: #4B4A67;
+  background: #FFFBEE;
+  padding: 4em 0;
+  display: grid;
+  grid-gap: 2em;
+  align-items: center;
+  grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(200px, 400px)) minmax(1em, 1fr);
+}
+
+.from-left {
+  grid-column: 2 / 3;
+}
+
+.from-right {
+  grid-column: 3 / 4;
+}
+
+
+/* Footer Section */
+footer {
+  padding: 25px;
+  color: #4B4A67;
+  text-align: center;
+  font-size: 18px;
+  position: absolute;
+  bottom: -3250px;
+  width: 90%; 
+}
+
+footer li {
+  color: #4B4A67;
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 16px;
+}

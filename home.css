@@ -1,0 +1,259 @@
+/*html, body {
+    margin: 0;
+    padding: 0;
+    flex: 100%;
+    font-family:'Poppins';
+    font-weight: 100;
+    background: #fffefd;
+}
+​
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 40px;
+    padding: 0 40px;
+    background: #c9d8d7;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    color: #4b4a67;
+    font-family: 'Poppins';
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav a {
+    padding: 0 10px;
+    text-decoration: none;
+    padding: 10px;
+  }
+*/
+​
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+​
+body{
+  font-family: 'Poppins';
+  flex: 100%;
+  background: #FFFBEE;
+}
+​
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+​
+.symbol {
+  padding-right: 10px;
+}
+​
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+​
+nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+​
+.navbar a:hover {
+    background-color:#C9D8D7;
+    color: black;
+}
+​
+a{
+  text-decoration: none;
+  color: black;
+}
+p{
+  color: black;
+}
+​
+#myInput{
+  font-size: 12px;
+  padding: 8px 20px;
+  margin: 20px 100px;
+  border-radius: 10px;
+}
+​
+.container{
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+​
+.col-2{
+  flex-basis: 50%;
+  min-width: 300px;
+}
+​
+.col-2 img {
+  max-width: 90%;
+  padding: 50px 0;
+  margin-left: 50px;
+}
+​
+.col-2 h1{
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+​
+.btn{
+  display: inline-block;
+  background: #C9D8D7;
+  color: #4B4A67;
+  padding: 8px 50px;
+  margin:30px 40px 0px 0px;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+​
+​
+    .hero { 
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 400px;
+        background: #fffefd;
+        color: #4b4a67;
+        font-family: 'Poppins';
+      }
+      
+      .hero p {
+        width: 400px;
+        text-align: center;
+        line-height: 25px;
+      }
+      
+      
+    .topnav input {
+        
+    padding: 0.5rem 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.4)
+    }
+​
+    .row {
+        font-family: 'Poppins';
+        color:#4b4a67;
+    }
+​
+    /* --- featured projects ---*/
+    .categories{
+      margin: 70px 0;
+  }
+  .col-3{
+      flex-basis: 30%;
+      min-width: 250px;
+      margin-bottom: 30px;
+  }
+  .col-3 img{
+      width: 100%;
+  }
+​
+  .small-container{
+      max-width: 1080px;
+      margin: auto;
+      padding-left: 25px;
+      padding-right: 25px; 
+    }
+  
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;   
+    border: 1px solid #C9D8D7;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    font-family: 'Poppins'
+  }
+  input[type=submit] {
+    background-color:#4b4a67;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+​
+​
+input[type=submit]:hover {
+  background-color: #C9D8D7;
+}
+​
+​
+    
+​
+    /*footer {
+        background-color: #c9d8d7;
+        font-size: 20px;
+        padding: 30px;
+        text-align: center;
+      
+      }*/
+​
+      /*-----Footer-----*/
+​
+.footer {
+  background: #B36A5E;
+  color: #FFFEFD;
+  font-size: 14px;
+  padding: 60px 0 20px;
+}
+​
+.footer h3{
+  color: #FFFEFD;
+}
+.footer li{
+  color: #FFFEFD;
+}
+​
+.footer a{
+  color: #FFFEFD;
+}
+​
+.footer-col-1{
+  flex: 1;
+  align-items:center;
+}
+​
+.footer-col-2, .footer-col-3{
+  flex-basis: 25%;
+  text-align: center;
+}
+​
+.footer ul{
+  list-style-type: none;
+}
+​
+.footer img{
+  position: relative;
+}
